@@ -4,6 +4,15 @@ auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
 sections:
+- type: directory
+  path: ''
+  label: gneeee
+  create: all
+  match: "**/*"
+- type: document
+  path: jsp
+  label: gnee
+  match: "**/*"
 - type: heading
   label: Slidebar
 - type: directory
