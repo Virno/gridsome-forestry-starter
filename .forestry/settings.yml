@@ -9,10 +9,11 @@ sections:
   label: gneeee
   create: all
   match: "**/*"
+  templates:
+  - project
 - type: document
-  path: jsp
+  path: Slidebar
   label: gnee
-  match: "**/*"
 - type: heading
   label: Slidebar
 - type: directory
